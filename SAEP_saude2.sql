@@ -92,3 +92,5 @@ CREATE TABLE comentarios(
 select*from atividades_table;
 select*from usuarios_table;
 
+ALTER TABLE atividades_table
+ALTER COLUMN data_atividade TYPE TIMESTAMP;
